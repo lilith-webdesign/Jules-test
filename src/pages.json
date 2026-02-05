@@ -1,0 +1,75 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "社区智能饮水"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/scan/dispense",
+      "style": {
+        "navigationBarTitleText": "设备打水详情"
+      }
+    },
+    {
+      "path": "pages/location/index",
+      "style": {
+        "navigationBarTitleText": "周边饮水点查询"
+      }
+    },
+    {
+      "path": "pages/scan/index",
+      "style": {
+        "navigationBarTitleText": "扫码识别中",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/card/buy",
+      "style": {
+        "navigationBarTitleText": "购卡申请详情"
+      }
+    },
+    {
+      "path": "pages/card/bind",
+      "style": {
+        "navigationBarTitleText": "水卡录入绑定"
+      }
+    },
+    {
+      "path": "pages/card/wallet",
+      "style": {
+        "navigationBarTitleText": "我的水卡包"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社区智能饮水",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#137fec",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  }
+}
