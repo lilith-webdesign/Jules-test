@@ -167,7 +167,7 @@ const goToScanBuy = () => {
 }
 
 const goToRecharge = () => {
-  uni.showToast({ title: '跳转充值页面', icon: 'none' })
+  uni.navigateTo({ url: '/pages/card/recharge' })
 }
 
 const goToBindCard = () => {

@@ -109,7 +109,7 @@
 
 <script setup lang="ts">
 const goToRecords = (type: string) => {
-  uni.showToast({ title: `查看${type}记录`, icon: 'none' })
+  uni.navigateTo({ url: `/pages/record/index?type=${type}` })
 }
 
 const goToCardWallet = () => {

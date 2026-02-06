@@ -48,6 +48,18 @@
       "style": {
         "navigationBarTitleText": "我的水卡包"
       }
+    },
+    {
+      "path": "pages/card/recharge",
+      "style": {
+        "navigationBarTitleText": "水卡充值"
+      }
+    },
+    {
+      "path": "pages/record/index",
+      "style": {
+        "navigationBarTitleText": "交易记录总览"
+      }
     }
   ],
   "globalStyle": {
